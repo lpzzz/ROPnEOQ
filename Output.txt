@@ -1,0 +1,53 @@
+Day 1245
+
+  Warehouse          C          S          T          E          F
+0      Mean  61.592745  99.528957  17.357639  15.190972  16.986111
+1     Stdev  15.298000  18.912334  16.284339  59.776089  16.103356
+2     Slope   0.391472   0.165843   0.000000   0.000000   0.000000
+
+Total Demand: 210.65642436141613  /  Total Cap: 205  ==  1.0275923139581276
+
+              to C        C        S        T
+0  Shipping_method    Truck    Truck    Truck
+1              EOQ      600      400      600
+2             Cost   1180.5  1207.35  1205.56
+3    Shipping_time        7        7        7
+4         Leadtime  15.5714  18.4286       13
+5                +  6.26355  6.26355  6.26355
+6              ROP  1042.71  1225.49  877.657
+
+              to S        C        S        T
+0  Shipping_method    Truck    Truck    Truck
+1              EOQ      600      400      600
+2             Cost  1205.19  1182.27  1204.39
+3    Shipping_time        7        7        7
+4         Leadtime  15.5714  18.4286       13
+5                +   2.6535   2.6535   2.6535
+6              ROP   1648.1  1940.88  1383.92
+
+              to T        C        S        T
+0  Shipping_method    Truck    Truck    Truck
+1              EOQ      400      400      400
+2             Cost  1211.02  1211.02  1185.86
+3    Shipping_time        7        7        7
+4         Leadtime  12.7143  18.4286       11
+5                +        0        0        0
+6              ROP  295.104  409.465  260.149
+
+              to E        C        S        T
+0  Shipping_method    Truck    Truck    Truck
+1              EOQ      200      200      200
+2             Cost  1211.66  1211.66  1211.66
+3    Shipping_time        7        7        7
+4         Leadtime  9.85714  12.7143        9
+5                +        0        0        0
+6              ROP  390.253  466.298  366.537
+
+              to F        C        S        T
+0  Shipping_method    Truck    Truck    Truck
+1              EOQ      200      200      200
+2             Cost   1336.6   1336.6   1336.6
+3    Shipping_time       14       14       14
+4         Leadtime  16.8571  19.7143       16
+5                +        0        0        0
+6              ROP  371.069    426.5  354.327
