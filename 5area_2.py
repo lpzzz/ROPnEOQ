@@ -6,7 +6,7 @@ from scipy.stats import norm
 
 
 BuildInPrint = print
-FOLDER = 'C:/FILE/1Ds/OneDrive - Saint Louis University/SCM/SPRING 2019/OPM 6460/simulation_2'
+FOLDER = os.getcwd()
 I = 1.1 ** (1 / 365) - 1
 H = 100 / 365
 TRUCKLOAD = 200
